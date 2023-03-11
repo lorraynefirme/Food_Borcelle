@@ -1,0 +1,29 @@
+.categoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.titulo{
+    width: 100%;
+    background-color: #FF4242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 8rem;
+    font-size: 1.8rem;
+}
+
+.itens{
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 360px));
+    grid-template-rows: auto;
+    gap: 15px 15px;
+    align-items: center;
+    justify-content: center;
+    
+}

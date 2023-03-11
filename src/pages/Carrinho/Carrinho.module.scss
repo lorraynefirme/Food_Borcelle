@@ -1,0 +1,57 @@
+.carrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    border-top: 5px solid #52796F;
+    width: 100%;
+    background-color: #FF4242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+.itens{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+
+    @media(max-width: 440px) {
+        align-self: center;
+    }
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+
+    span{
+        margin-top: 5px;
+    }
+}
+
+.finalizar{
+    align-self: flex-end;
+    background-color: #FF4242;
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 1px 4px 0 rgba(192, 208, 230, 0.8);
+
+    &:hover{
+        background-color: #D81C1C;
+    }
+}
